@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  mkdocs:
+    image: mkdocs-devops
+    build: .
+
+    container_name: mkdocs
+    restart: always
+
+    ports:
+      - "80:8000"

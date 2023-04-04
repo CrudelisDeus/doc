@@ -1,0 +1,20 @@
+site_name: DevOps engineer
+theme:
+  language: en
+  name: material
+  #custom_dir: 'cinder'
+  palette:
+    primary: black
+  feature:
+    tabs: true
+plugins:
+  - search:
+      lang: ["ru", "en"]
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+extra:
+  generator: false
