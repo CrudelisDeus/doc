@@ -1,10 +1,13 @@
-site_name: DevOps engineer
+site_name: DevOps
 theme:
   language: en
   name: material
-  #custom_dir: 'cinder'
+  logo: img/logo/logo.png
+  favicon: img/logo/logo.png
   palette:
-    primary: black
+    primary: deep purple
+    accent: deep purple
+    scheme: slate
   feature:
     tabs: true
 plugins:
