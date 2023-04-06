@@ -1,15 +1,24 @@
 # Dmytro Shvydenko
 
 <style>
-    .md-typeset img{ width:125px;height:125px;object-fit:contain }
+    .md-typeset img{ width:100px;height:100px;object-fit:contain }
 </style>
 
 <!-- img tech -->
-<img src="img/tech/gitlab.png"/> <img src="img/tech/docker.png"/> 
-<img src="img/tech/python.png"/> <img src="img/tech/ELK.png"/>
-<img src="img/tech/ansible.png"/> <img src="img/tech/k&s.png"/>
-<img src="img/tech/aws.png"/> <img src="img/tech/nginx.png"/>
-<img src="img/tech/nodejs.png"/> <img src="img/tech/postgresql.png"/>
+<a href="https://docs.gitlab.com/" title="GitLab, CI-CD"><img src="img/tech/gitlab.png" alt="GitLab"></a>
+<a href="https://docs.docker.com/" title="Docker, docker-compose"><img src="img/tech/docker.png" alt="Docker"></a>
+<a href="https://docs.python.org/3/" title="Python. Modules: ipaddress, tabulate, subprocess, os"><img src="img/tech/python.png" alt="Python"></a>
+<a href="https://elk-docker.readthedocs.io/" title="ELK/EFK"><img src="img/tech/ELK.png" alt="ELK"></a>
+<a href="https://docs.ansible.com/" title="Ansible"><img src="img/tech/ansible.png" alt="Ansible"></a>
+<a href="https://kubernetes.io/docs/home/" title="Kubernetes"><img src="img/tech/k&s.png" alt="Kubernetes"></a>
+<a href="https://docs.aws.amazon.com/" title="AWS"><img src="img/tech/aws.png" alt="AWS"></a>
+<a href="http://nginx.org/en/docs/" title="NGINX"><img src="img/tech/nginx.png" alt="NGINX"></a>
+<a href="https://nodejs.org/en/docs" title="Node.js"><img src="img/tech/nodejs.png" alt="Node.js"></a>
+<a href="https://www.postgresql.org/docs/" title="PostgreSQL"><img src="img/tech/postgresql.png" alt="PostgreSQL"></a>
+<a href="https://www.gnu.org/savannah-checkouts/gnu/bash/manual/bash.html" title="Bash"><img src="img/tech/bash.png" alt="Bash"></a>
+<a href="https://git-scm.com/docs" title="Git"><img src="img/tech/git.png" alt="Git"></a>
+<a href="https://www.zabbix.com/ru/manuals" title="Zabbix"><img src="img/tech/zabbix.png" alt="Zabbix"></a>
+<a href="https://www.jenkins.io/doc/" title="jenkins"><img src="img/tech/jenkins.png" alt="jenkins"></a>
 
 ## Experience
 
@@ -42,6 +51,8 @@
 - Russian - Fluent
 
 <!-- img lunux -->
-<img src="img/linux/ubuntu.png"/> <img src="img/linux/debian.png"/> 
-<img src="img/linux/kali.png"/> <img src="img/linux/centos.png"/>
-<img src="img/linux/redhat.png"/>
+<a href="https://help.ubuntu.com/" title="Ubuntu"><img src="img/linux/ubuntu.png" alt="Ubuntu"></a>
+<a href="https://www.debian.org/doc/" title="Debian"><img src="img/linux/debian.png" alt="Debian"></a>
+<a href="https://www.kali.org/docs/" title="Kali"><img src="img/linux/kali.png" alt="Kali"></a>
+<a href="https://docs.centos.org/en-US/docs/" title="CentOS"><img src="img/linux/centos.png" alt="CentOS"></a>
+<a href="https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8" title="Red Hat"><img src="img/linux/redhat.png" alt="Red Hat"></a>

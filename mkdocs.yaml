@@ -4,10 +4,26 @@ theme:
   name: material
   logo: img/logo/logo.png
   favicon: img/logo/logo.png
-  palette:
-    primary: deep purple
-    accent: deep purple
-    scheme: slate
+  # palette:
+    # primary: deep purple
+    # accent: deep purple
+  palette: 
+
+    # Palette toggle for light mode
+    - scheme: slate
+      primary: deep purple
+      accent: deep purple
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: default
+      primary: deep purple
+      accent: deep purple
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
   feature:
     tabs: true
 plugins:
