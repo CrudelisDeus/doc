@@ -1,6 +1,6 @@
 # Install
 
-## Source install
+## Linux. Source install
 
 Installation from source.
 
@@ -89,7 +89,6 @@ echo "[$((completed_steps * 100 / total_steps))%]"
 # [OK]
 # [100%]
 ```
-
 
 ## Version Check
 
