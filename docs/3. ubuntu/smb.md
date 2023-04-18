@@ -49,21 +49,37 @@ mkdir /data && chmod -R 777 /data
     /etc/samba/smb.conf
 
 ```bash
-[test] # name network dir
+[test]
+# name network dir
 path=/data
 readonly = no
-# This is an option that determines if the user has read-only access to the folder. In this case, users will be able to write files and change the contents of the folder.
+# This is an option that determines if the
+# user has read-only access to the folder.
+# In this case, users will be able to write
+# files and change the contents of the folder.
 comment = Security Folder
-# This is the folder comment that will be displayed in the file browser window on the client computer.
+# This is the folder comment that will be
+# displayed in the file browser window on
+# the client computer.
 security = user
-# This defines the security level for accessing the network folder. In this case, the security level is set to "user", which means that access to the folder will be controlled by user accounts.
+# This defines the security level for accessing
+# the network folder. In this case, the security
+# level is set to "user", which means that access
+# to the folder will be controlled by user accounts.
 valid users = test
 writable=yes
-# indicates that the folder you set up in Samba is writable by users who have the appropriate permissions.
+# indicates that the folder you set up in
+# Samba is writable by users who have the
+# appropriate permissions.
 client lanman auth=yes
-# enables support for client authentication through the LanMan protocol, which is used to support older clients that do not support more modern authentication protocols.
+# enables support for client authentication through
+# the LanMan protocol, which is used to support
+# older clients that do not support more
+# modern authentication protocols.
 client ntlmv2 auth=no
-# disables the use of the NTLMv2 authentication protocol, which can be useful if you have older clients that do not support NTLMv2.
+# disables the use of the NTLMv2 authentication
+# protocol, which can be useful if you have older
+# clients that do not support NTLMv2.
 ```
 
 After saving the changes, add the user to the list of Samba users, and set the password that will be used to access the directory.
